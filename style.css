@@ -1,35 +1,27 @@
 /*Social Icons */
 .social {
   padding: 5px 0;
-  font-family: "Open Sans", sans-serif;
-}
-.social i {
-  font-size: 1.15em;
-  padding: 0 1px;
-}
+  font-family: "Open Sans", sans-serif; }
+  .social i {
+    font-size: 1.15em;
+    padding: 0 1px; }
 
 /* Navigation Styles */
 .navbar-inverse {
-  background: white;
-}
-.navbar-inverse .navbar-toggle {
-  border-color: none;
-}
-.navbar-inverse .navbar-toggle:hover {
-  background: none;
-}
-.navbar-inverse .navbar-toggle .icon-bar {
-  background: #17bed9;
-}
+  background: white; }
+  .navbar-inverse .navbar-toggle {
+    border-color: none; }
+    .navbar-inverse .navbar-toggle:hover {
+      background: none; }
+    .navbar-inverse .navbar-toggle .icon-bar {
+      background: #17bed9; }
 
 h1 {
   font-size: 48px;
   text-align: center;
   margin: 100px 0 0 0;
-  font-family: "Oswald", sans-serif;
-}
+  font-family: "Oswald", sans-serif; }
 
 .lead {
   text-align: center;
-  font-family: "Open Sans", sans-serif;
-}
+  font-family: "Open Sans", sans-serif; }
