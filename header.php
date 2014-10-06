@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+
+    <title>Starter Template for Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700|Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  <header>
+  <div class="social">
+    <div class="container">
+      <div class="col-sm-4">
+        <a href="tel:+1-555-555-5555"><i class="fa fa-phone-square"></i>+1-555-555-5555</a>
+      </div>
+      <div class="col-sm-4 mailer">
+        <a href="mailto:johndoe@gmail.com"><i class="fa fa-envelope"></i>johndoe@gmail.com</a>
+      </div>
+      <div class="col-sm-4">
+        <div class="social-icons">
+          <a href="http://facebook.com"><i class="fa fa-facebook-square"></i></a>
+          <a href="http://twitter.com"><i class="fa fa-twitter"></i></a>
+          <a href="http://instagram.com"><i class="fa fa-instagram"></i></a>
+          <a href="http://youtube.com"><i class="fa fa-youtube"></i></a>
+          <a href="http://google.com"><i class="fa fa-google-plus"></i></a>
+          <a href="http://pinterest.com"><i class="fa fa-pinterest"></i></a>
+          <a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a>
+          <a href="http://github.com"><i class="fa fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="navbar navbar-inverse navbar-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Swoosh</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+</header>
