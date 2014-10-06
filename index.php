@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Starter Template for Theme</title>
 
     <!-- Bootstrap core CSS -->
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700|Oswald:400,300,700' rel='stylesheet' type='text/css'>
@@ -28,23 +28,26 @@
   </head>
 
   <body>
+  <header>
   <div class="social">
     <div class="container">
       <div class="col-sm-4">
-        <a href="tel:+1-555-555-5555"><i class="fa fa-phone-square"> +1-555-555-5555</i></a>
+        <a href="tel:+1-555-555-5555"><i class="fa fa-phone-square"></i>+1-555-555-5555</a>
+      </div>
+      <div class="col-sm-4 mailer">
+        <a href="mailto:johndoe@gmail.com"><i class="fa fa-envelope"></i>johndoe@gmail.com</a>
       </div>
       <div class="col-sm-4">
-        <a href="mailto:johndoe@gmail.com"><i class="fa fa-envelope"> johndoe@gmail.com</i></a>
-      </div>
-      <div class="col-sm-4">
-        <a href="http://facebook.com"><i class="fa fa-facebook-square"></i></a>
-        <a href="http://twitter.com"><i class="fa fa-twitter"></i></a>
-        <a href="http://instagram.com"><i class="fa fa-instagram"></i></a>
-        <a href="http://youtube.com"><i class="fa fa-youtube"></i></a>
-        <a href="http://google.com"><i class="fa fa-google-plus"></i></a>
-        <a href="http://pinterest.com"><i class="fa fa-pinterest"></i></a>
-        <a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a>
-        <a href="http://github.com"><i class="fa fa-github"></i></a>
+        <div class="social-icons">
+          <a href="http://facebook.com"><i class="fa fa-facebook-square"></i></a>
+          <a href="http://twitter.com"><i class="fa fa-twitter"></i></a>
+          <a href="http://instagram.com"><i class="fa fa-instagram"></i></a>
+          <a href="http://youtube.com"><i class="fa fa-youtube"></i></a>
+          <a href="http://google.com"><i class="fa fa-google-plus"></i></a>
+          <a href="http://pinterest.com"><i class="fa fa-pinterest"></i></a>
+          <a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a>
+          <a href="http://github.com"><i class="fa fa-github"></i></a>
+        </div>
       </div>
     </div>
   </div>
@@ -68,7 +71,7 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
-
+</header>
     <div class="container">
 
       <div class="starter-template">

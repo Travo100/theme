@@ -1,27 +1,120 @@
+a {
+  color: #28c5a6;
+  transition: all 0.25s ease-in-out;
+}
+a:hover {
+  color: #46dabc;
+}
+
 /*Social Icons */
+.active a {
+  font-size: 18px;
+}
+
 .social {
   padding: 5px 0;
-  font-family: "Open Sans", sans-serif; }
-  .social i {
-    font-size: 1.15em;
-    padding: 0 1px; }
+  font-family: "Open Sans", sans-serif;
+  background: #444444;
+}
+.social .col-sm-4 {
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+.social a {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 5px;
+  display: inline-block;
+}
+.social a:hover {
+  color: #71e2cc;
+  text-decoration: none;
+}
+.social i {
+  font-size: 1.15em;
+  padding: 0 5px;
+  color: #28c5a6;
+}
+.social i:hover {
+  color: #71e2cc;
+}
 
 /* Navigation Styles */
+.navbar {
+  border-radius: 0px;
+  border: none;
+}
+
 .navbar-inverse {
-  background: white; }
-  .navbar-inverse .navbar-toggle {
-    border-color: none; }
-    .navbar-inverse .navbar-toggle:hover {
-      background: none; }
-    .navbar-inverse .navbar-toggle .icon-bar {
-      background: #17bed9; }
+  background-color: white;
+  border-color: white;
+  border-top: 3px solid #28c5a6;
+  border-bottom: 3px solid #28c5a6;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: white;
+  background: none;
+}
+.navbar-inverse .navbar-toggle:hover {
+  background: none;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background: #28c5a6;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #28c5a6;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #ffb434;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background: none;
+  color: #ffb434;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #28c5a6;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand {
+  color: #28c5a6;
+  font-family: "Oswald", sans-serif;
+}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:hover {
+  color: #ffb434;
+}
 
 h1 {
   font-size: 48px;
   text-align: center;
   margin: 100px 0 0 0;
-  font-family: "Oswald", sans-serif; }
+  font-family: "Oswald", sans-serif;
+  color: #28c5a6;
+}
 
 .lead {
   text-align: center;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  color: #ffb434;
+}
+
+@media (min-width: 768px) {
+  .social .col-sm-4 {
+    text-align: left;
+  }
+  .social .mailer {
+    text-align: center;
+  }
+
+  .social-icons {
+    float: right;
+  }
+
+  .navbar-nav {
+    float: right;
+  }
+}
