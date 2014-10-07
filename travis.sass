@@ -43,7 +43,8 @@ a
 	background-color: #fff
 	border-color: #fff
 	border-top: 3px solid $primary-color
-	border-bottom: 3px solid $primary-color
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5)
+	// border-bottom: 3px solid $primary-color
 	.navbar-toggle 
 		border-color: #fff
 		background: none
@@ -56,10 +57,11 @@ a
 		color: $primary-color
 		font-family: $header-font
 		text-transform: uppercase
-		transition: all .25s ease-in-out
 		&:hover 
 			color: $secondary-color
+			// border-bottom: 3px solid $primary-color
 
+	
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus
 	background: none
 	color: $secondary-color
