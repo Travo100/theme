@@ -17,7 +17,7 @@ include('footer.php');
 ?>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="./waypoints.min.js"></script>
-    <script src="./main.js"></script>
+    <script src="./js/waypoints.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
