@@ -29,4 +29,29 @@ jQuery(function($) {
 
     requestAnimationFrame(frame);
   });
+
+/*Function for hidding the social icons on mobile*/
+  $('.mobile-reveal').click(function() {
+    $('.social').slideToggle(400);
+  });
+  
+  $(window).resize(function(){
+    windowSize = $(window).width();
+      if (windowSize > 768) {
+        $('.social').slideDown();
+      } else {
+        $('.social').slideUp();
+      }
+  });
+
+/*Make the menu fixed on scrolling past 200px*/
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 200) {
+      $('.navbar-inverse').addClass('navbar-fixed-top');
+    } else {
+      $('.navbar-inverse').removeClass('navbar-fixed-top');
+    }
+
+  });
+
 });
