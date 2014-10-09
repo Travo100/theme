@@ -43,4 +43,15 @@ jQuery(function($) {
         $('.social').slideUp();
       }
   });
+
+/*Make the menu fixed on scrolling past 200px*/
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 200) {
+      $('.navbar-inverse').addClass('navbar-fixed-top');
+    } else {
+      $('.navbar-inverse').removeClass('navbar-fixed-top');
+    }
+
+  });
+
 });
