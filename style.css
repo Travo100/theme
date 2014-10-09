@@ -16,6 +16,7 @@ a:hover {
   padding: 5px 0;
   font-family: "Open Sans", sans-serif;
   background: #444444;
+  display: none;
 }
 .social .col-sm-4 {
   text-align: center;
@@ -40,6 +41,20 @@ a:hover {
   color: #71e2cc;
 }
 
+.mobile-reveal {
+  text-align: center;
+  color: #28c5a6;
+  background: #444444;
+  cursor: pointer;
+}
+.mobile-reveal a {
+  display: block;
+}
+@media(min-width: 768px) {
+  .mobile-reveal {
+    display: none;
+  }
+}
 /* Navigation Styles */
 .navbar {
   border-radius: 0px;
@@ -103,6 +118,19 @@ h1 {
   color: #ffb434;
 }
 
+.quote {
+  padding: 25px 0;
+  background: #28c5a6;
+}
+.quote h3 {
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-weight: 300;
+  font-size: 1.7em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.49);
+}
+
 @media (min-width: 768px) {
   .social .col-sm-4 {
     text-align: left;
@@ -117,6 +145,18 @@ h1 {
 
   .navbar-nav {
     float: right;
+  }
+
+  .mobile-reveal {
+    display: none;
+  }
+
+  .social {
+    display: inherit;
+  }
+
+  .quote h3 {
+    font-size: 2.25em;
   }
 }
 h1, h2, h3, h4, h5, h6 {

@@ -29,4 +29,18 @@ jQuery(function($) {
 
     requestAnimationFrame(frame);
   });
+
+/*Function for hidding the social icons on mobile*/
+  $('.mobile-reveal').click(function() {
+    $('.social').slideToggle(400);
+  });
+  
+  $(window).resize(function(){
+    windowSize = $(window).width();
+      if (windowSize > 768) {
+        $('.social').slideDown();
+      } else {
+        $('.social').slideUp();
+      }
+  });
 });

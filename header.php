@@ -21,6 +21,9 @@
       </div>
     </div>
   </div>
+  <div class="mobile-reveal">
+    <i class="fa fa-chevron-circle-down"></i>
+  </div>
     <div class="navbar navbar-inverse navbar-top" role="navigation">
       <div class="container">
         <div class="navbar-header">

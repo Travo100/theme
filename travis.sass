@@ -14,6 +14,7 @@ a
   padding: 5px 0
   font-family: $body-font
   background: #444
+  display: none
   .col-sm-4 
     text-align: center
     padding-left: 0
@@ -32,6 +33,16 @@ a
     color: $primary-color
     &:hover
       color: lighten($primary-color, 20)
+
+.mobile-reveal
+  text-align: center
+  color: $primary-color
+  background: $bg-color
+  cursor: pointer
+  a 
+    display: block
+  @media(min-width: 768px)
+    display: none
 
 
 /* Navigation Styles */
@@ -88,6 +99,19 @@ h1
   font-family: $body-font
   color: $secondary-color
 
+.quote 
+  padding: 25px 0
+  background: $primary-color
+  // border-top: 3px solid $secondary-color
+  // border-bottom: 3px solid $secondary-color
+  h3
+    text-align: center
+    color: #fff
+    margin: 0
+    font-weight: 300
+    font-size: 1.7em
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.49)
+    
 @media (min-width: 768px) 
   .social
     .col-sm-4 
@@ -99,3 +123,9 @@ h1
     float: right
   .navbar-nav 
     float: right
+  .mobile-reveal
+    display: none
+  .social 
+    display: inherit
+  .quote h3 
+    font-size: 2.25em
