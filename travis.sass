@@ -1,8 +1,35 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html 
+  box-sizing: border-box
+
+*, *:before, *:after 
+  box-sizing: inherit
+
+
+body 
+  padding: 0
+  margin: 0
+
 a 
   color: $primary-color
   transition: all .25s ease-in-out
   &:hover 
     color: lighten($primary-color, 10)
+
+.action-button
+  margin: 0
+  display: inline-block
+  width: 100%
+  padding: 10px 
+  text-align: center
+  font-family: $header-font
+  background: $primary-color
+  border: none
+  font-size: 1.25em
+  color: #fff
+  transition: all .25s ease-in
+  &:hover 
+    background: darken($primary-color, 10)
 
 /*Social Icons*/
 
@@ -132,19 +159,10 @@ a
   font-family: $header-font
   &:hover 
     color: $secondary-color
+
  
-h1 
-  font-size: 48px
-  text-align: center
-  margin: 100px 0 0 0
-  font-family: $header-font
-  color: $primary-color
 
-.lead
-  text-align: center
-  font-family: $body-font
-  color: $secondary-color
-
+//QUOTE STYLES
 .quote 
   padding: 25px 0
   background: $primary-color
@@ -157,7 +175,67 @@ h1
     font-weight: 300
     font-size: 1.7em
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.49)
+
+//CONTACT US STYLES
+.mt-contact-us
+  background: $bg-color
+  padding: 25px 0
+  border-top: 4px solid $primary-color
+  border-bottom: 4px solid $primary-color
+  h2 
+    text-align: center
+    color: #fff
+  .col-sm-4
+    text-align: center
+    margin: 25px 0
+  address,p 
+    font-size: 1em
+    margin: 0 
+    color: $secondary-color
+  i 
+    font-size: 1.5em
+    color: $secondary-color
+    border: 4px solid $primary-color
+    line-height: 50px
+    width: 60px
+    height: 60px
+    border-radius: 100%
+  form 
+    input, textarea, button
+      margin: 0 0 15px 0
+    textarea
+      min-height: 200px
+
+//FOOTER STYLES
+footer
+  background: $bg-color 
+  padding: 5px 0
+  a, p, ul 
+    font-size: 1em
+    line-height: 1em
+    margin: 0
+    padding: 0
+    color: $primary-color
+  ul
+    text-align: center 
+    li 
+      display: inline-block
+      list-style: none
+      padding: 0 5px
+  .col-md-4 
+    text-align: center
+    margin: 10px 0
+  .social-icons
+    float: none
+    margin: 0
+    line-height: 0
+    a,i 
+      display: inline-block
+      padding: 0 2px
+
     
+      
+   
 @media (min-width: 768px) 
   .social
     .col-sm-4 
