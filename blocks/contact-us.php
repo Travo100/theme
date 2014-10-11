@@ -23,8 +23,8 @@
           <input type="email" name="email" class="form-control" placeholder="Your Email?">
         </div>
         <div class="col-md-12">
-        <textarea name="message" id="message" class="form-control" placeholder="Your Message"></textarea>
-        <button type="submit" class="action-button">Send</button>
+          <textarea name="message" id="message" class="form-control" placeholder="Your Message"></textarea>
+          <button type="submit" class="action-button">Send</button>
         </div>
       </form>
     </div>
