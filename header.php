@@ -17,8 +17,15 @@
           <a href="http://pinterest.com"><i class="fa fa-pinterest"></i></a>
           <a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a>
           <a href="http://github.com"><i class="fa fa-github"></i></a>
+          <a href="#" id="search-it"><i class="fa fa-search"></i></a>
         </div>
       </div>
+     </div>
+  </div>
+  <div class="container" style="position: relative;">
+    <div class="search-spot">
+      <input type="text" name="searchbar" placeholder="Search">
+      <a href="#" class="action-button">Search</a>
     </div>
   </div>
   <div class="mobile-reveal">
@@ -37,14 +44,12 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active">
-
-            <a href="#" class="three-d">Home
-              <span aria-hidden="true" class="three-d-box">
-                <span class="front">Home</span>
-                <span class="back">Home</span>
-            </a></li>
+            <li class="active"><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#cats">Cats</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->

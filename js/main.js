@@ -54,4 +54,9 @@ jQuery(function($) {
 
   });
 
+  $('#search-it').click(function(){
+    $('.search-spot').toggle();
+  });
+  
+
 });
