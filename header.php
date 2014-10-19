@@ -22,11 +22,9 @@
       </div>
      </div>
   </div>
-  <div class="container" style="position: relative;">
-    <div class="search-spot">
+  <div class="container search-spot">
       <input type="text" name="searchbar" placeholder="Search">
       <a href="#" class="action-button">Search</a>
-    </div>
   </div>
   <div class="mobile-reveal">
     <i class="fa fa-chevron-circle-down"></i>

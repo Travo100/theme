@@ -140,7 +140,7 @@ a:hover {
 .search-spot {
   display: none;
   z-index: 1000;
-  position: absolute;
+  position: relative;
   right: 0;
   top: 0;
 }
@@ -149,6 +149,9 @@ a:hover {
   font-size: 2em;
   width: 100%;
   font-style: italic;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .quote {
