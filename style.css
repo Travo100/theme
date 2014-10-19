@@ -46,32 +46,32 @@ a:hover {
   font-size: 18px;
 }
 
-.social {
+.mt-social {
   padding: 5px 0;
   font-family: "Open Sans", sans-serif;
   background: #444;
   display: none;
 }
-.social .col-sm-4 {
+.mt-social .col-sm-4 {
   text-align: center;
   padding-left: 0;
   padding-right: 0;
 }
-.social a {
+.mt-social a {
   font-family: "Open Sans", sans-serif;
   margin-top: 5px;
   display: inline-block;
 }
-.social a:hover {
+.mt-social a:hover {
   color: #71e2cc;
   text-decoration: none;
 }
-.social i {
+.mt-social i {
   font-size: 1.15em;
   padding: 0 3px;
   color: #28C5A6;
 }
-.social i:hover {
+.mt-social i:hover {
   color: #71e2cc;
 }
 
@@ -84,11 +84,12 @@ a:hover {
 .mobile-reveal a {
   display: block;
 }
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .mobile-reveal {
     display: none;
   }
 }
+
 /* Navigation Styles */
 .navbar {
   border-radius: 0px;
@@ -232,11 +233,33 @@ footer .social-icons a, footer .social-icons i {
   padding: 0 2px;
 }
 
+.mt-top-arrow {
+  opacity: 0;
+  display: none;
+  position: fixed;
+  right: -5000px;
+  -webkit-transition: all 1s ease-in-out;
+          transition: all 1s ease-in-out;
+}
 @media (min-width: 768px) {
-  .social .col-sm-4 {
+  .mt-top-arrow {
+    opacity: 1;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    padding: 10px;
+    background: #FFB434;
+    font-size: 0.5em;
+    border-radius: 100%;
+    color: #fff;
+  }
+}
+
+@media (min-width: 768px) {
+  .mt-social .col-sm-4 {
     text-align: left;
   }
-  .social .mailer {
+  .mt-social .mailer {
     text-align: center;
   }
 
@@ -252,7 +275,7 @@ footer .social-icons a, footer .social-icons i {
     display: none;
   }
 
-  .social {
+  .mt-social {
     display: inherit;
   }
 
@@ -260,6 +283,14 @@ footer .social-icons a, footer .social-icons i {
     font-size: 2.25em;
   }
 }
+.showMe {
+  display: block;
+}
+
+.hideMe {
+  display: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Oswald", sans-serif;
   margin-top: 0px;

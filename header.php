@@ -1,5 +1,5 @@
  <header>
-  <div class="social">
+  <div class="mt-social">
     <div class="container">
       <div class="col-sm-4">
         <a href="tel:+1-555-555-5555"><i class="fa fa-phone-square"></i>+1-555-555-5555</a>

@@ -24,3 +24,4 @@
     </div>
   </div>
 </footer>
+<a href="#" class="mt-top-arrow"><i class="fa fa-chevron-up fa-3x"></i></a>
