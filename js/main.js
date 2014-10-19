@@ -96,5 +96,3 @@ $('.mt-top-arrow').click(function(){
   return false;
 });
   
-
-});
