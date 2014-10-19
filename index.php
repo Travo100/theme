@@ -23,8 +23,9 @@ include('footer.php');
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="./js/waypoints.min.js"></script>
+    <script src="http://isotope.metafizzy.co/isotope.pkgd.min.js"></script>
     <script src="./js/main.js"></script>
-    <script src="./js/block-mover.js"></script>
+    <!-- script src="./js/block-mover.js"></script -->
   </body>
 </html>
 

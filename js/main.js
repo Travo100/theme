@@ -54,4 +54,29 @@ jQuery(function($) {
 
   });
 
+  // sorted nav
+  $('.sorted-area').isotope({
+    'item-selector': '.portfolio-piece'
+  });
+
+  $('.sorted-nav a').click(function() {
+    var filter = '';
+    if ($(this).hasClass('active')) {
+      filter = '*';
+      $('.sorted-nav a, .sorted-nav li').removeClass('active');
+    } else {
+      $('.sorted-nav a, .sorted-nav li').removeClass('active');
+      $(this).addClass('active');
+      $(this).parent().addClass('active');
+      filter = '[data-taxonomy="' + $(this).attr('data-sort') + '"]';
+    }
+
+    console.log(filter);
+
+    $('.sorted-area').isotope({
+      filter: filter
+    });;
+  });
+
+
 });
