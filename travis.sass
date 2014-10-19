@@ -37,7 +37,7 @@ a
   a 
     font-size: 18px
 
-.social 
+.mt-social 
   padding: 5px 0
   font-family: $body-font
   background: #444
@@ -69,7 +69,7 @@ a
   cursor: pointer
   a 
     display: block
-  @media(min-width: 768px)
+  @media (min-width: 768px)
     display: none
 
 
@@ -202,11 +202,25 @@ footer
       display: inline-block
       padding: 0 2px
 
-    
-      
-   
+//Up Arrow
+.mt-top-arrow 
+  opacity: 0
+  display: none
+  position: fixed
+  right: -5000px
+  transition: all 1s ease-in-out
+  @media (min-width: 768px)
+    opacity: 1
+    position: fixed
+    right: 3%
+    bottom: 3%
+    padding: 10px 
+    background: $secondary-color
+    font-size: .5em
+    border-radius: 100%
+    color: #fff
 @media (min-width: 768px) 
-  .social
+  .mt-social
     .col-sm-4 
       text-align: left
     .mailer 
@@ -218,7 +232,12 @@ footer
     float: right
   .mobile-reveal
     display: none
-  .social 
+  .mt-social 
     display: inherit
   .quote h3 
     font-size: 2.25em
+
+.showMe
+  display: block
+.hideMe
+  display: none
