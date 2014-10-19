@@ -32,15 +32,15 @@ jQuery(function($) {
 
 /*Function for hidding the social icons on mobile*/
   $('.mobile-reveal').click(function() {
-    $('.social').slideToggle(400);
+    $('.mt-social').slideToggle(400);
   });
   
   $(window).resize(function(){
     windowSize = $(window).width();
       if (windowSize > 768) {
-        $('.social').slideDown();
+        $('.mt-social').slideDown();
       } else {
-        $('.social').slideUp();
+        $('.mt-social').slideUp();
       }
   });
 
@@ -50,6 +50,12 @@ jQuery(function($) {
       $('.navbar-inverse').addClass('navbar-fixed-top');
     } else {
       $('.navbar-inverse').removeClass('navbar-fixed-top');
+    }
+
+    if ($(window).scrollTop() > 1000) {
+      $('.mt-top-arrow').addClass('showMe');
+    } else {
+      $('.mt-top-arrow').removeClass('showMe');
     }
 
   });
@@ -78,5 +84,17 @@ jQuery(function($) {
     });;
   });
 
+
+});
+  $('#search-it').click(function(){
+    $('.search-spot').toggle();
+  });
+
+/*Scroll Top Button*/
+$('.mt-top-arrow').click(function(){
+  $('body, html').animate({scrollTop:0}, 600);
+  return false;
+});
+  
 
 });
