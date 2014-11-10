@@ -256,19 +256,30 @@ a
     span
       text-align: center
       position: absolute
-      left: 40px
+      left: 25%
+      right: 25%
       bottom: 0px
       opacity: 0
       padding: 5px 
       border-radius: 16px
       color: #000
-      font-size: 20px
+      font-size: 16px
+      @media (min-width: 768px)
+        left: 5px 
+        right: 0px
+      @media (min-width: 992px)
+        left: 25px
+      @media (min-width: 1200px)
+        left: 0px
     &:hover 
       img 
         opacity: .3
       span
-        bottom: 25px  
+        bottom: 55px  
         opacity: 1
+        @media (min-width: 992px)
+          bottom: 65px
+        
   .row-blog 
     margin: 25px auto
     overflow: hidden
