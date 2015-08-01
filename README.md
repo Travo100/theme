@@ -1,5 +1,3 @@
-Matt and Travis' badass theme
+Matt and Travis' theme
 =============================
-
-Fuckin' Bitches and Makin' Themes
 ---------------------------------
